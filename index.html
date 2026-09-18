@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>罗马‑布达佩斯亲子行｜9.25‑9.27（斯桐·V5 更新9.26+9.27）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        body {
+            background-color: #f7f9fb;
+            color: #222;
+            padding: 16px;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 740px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+        }
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: #1f2937;
+            border-left: 4px solid #2563eb;
+            padding-left: 10px;
+        }
+        .warn-card {
+            background-color: #fff7ed;
+            border: 1px solid #fdba74;
+        }
+        .warn-card h2 {
+            border-left-color: #ea580c;
+            color: #c2410c;
+        }
+        .info-card {
+            background-color: #ecfdf5;
+            border:1px solid #6ee7b7;
+        }
+        .hotel-card {
+            background-color: #f0f7ff;
+            border:1px solid #93c5fd;
+        }
+        .food-card {
+            background-color: #fff3f0;
+            border:1px solid #fca5a5;
+        }
+        .trans-card {
+            background-color: #f0fcff;
+            border:1px solid #7dd3fc;
+        }
+        .countdown-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 10px;
+        }
+        .tz-box {
+            background: #eff6ff;
+            padding: 14px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .tz-title {
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 6px;
+            color: #1e40af;
+        }
+        .tz-time {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .count-item {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 6px;
+            margin: 2px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .section-item {
+            margin-bottom: 8px;
+        }
+        .label {
+            font-weight: 600;
+            display: inline-block;
+        }
+        ul {
+            padding-left: 22px;
+            margin-top: 8px;
+        }
+        .risk-text {
+            color: #c2410c;
+            font-weight: 500;
+        }
+        .tip-small {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .time-line li {
+            margin:6px 0;
+        }
+        a.map-link {
+            color:#0b72d8;
+            word-break:break-all;
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card info-card">
+        <h2>📋 行程总背景 · 可点击地图链接汇总（V5）</h2>
+        <div class="section-item"><span class="label">出行人员：</span>2位成人 + 斯桐（2.7岁）</div>
+        <div class="section-item"><span class="label">日期：</span>当地时间 2026‑09‑25 ～ 09‑27（CEST UTC+2，布达佩斯、罗马无时差）</div>
+        <div class="section-item"><span class="label">📍布达佩斯酒店：Ibis Budapest Stadium</span><br>
+地址：Könyves Kálmán krt. 34, 1097 Budapest, Hungary<br>
+电话:+36‑1‑2389360<br>
+<a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Ibis+Budapest+Stadium+K%C3%B6nyves+K%C3%A1lm%C3%A1n+krt.+34+Budapest" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍罗马酒店：TH Roma‑Carpegna Palace</span><br>
+地址：V. Aurelia, 481, 00165 Roma RM, Italy<br>
+电话:+39‑06‑89478602；24h前台、行李寄存可用<br>
+<a class="map-link" href="https://www.google.com/maps/search/?api=1&query=TH+Roma+-+Carpegna+Palace+V.+Aurelia+481+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍餐厅1：Joseph Ristorante（9.25 意面+T‑bone牛扒）</span><br>
+地址：Via Accursio, 12, 00165 Roma RM, Italy<br>
+电话:+39‑06‑6623887；官网：ristorantejoseph.com<br>
+<a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Joseph+Ristorante+Via+Accursio+12+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍餐厅2：La Romanesca Osteria Pizzeria（9.26晚餐）</span><br>
+地址：Via della Conciliazione, 19, 00193 Roma RM, Italy（梵蒂冈附近，晚餐后步行17分钟回酒店）<br>
+<a class="map-link" href="https://www.google.com/maps/search/?api=1&query=La+Romanesca+Osteria+Pizzeria+Via+della+Conciliazione+19+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍梵蒂冈博物馆（主入口）</span><br>
+地址：Viale Vaticano, 00120 Vatican City State<br>
+<a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Musei+Vaticani+Viale+Vaticano+entrance" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍特雷维喷泉 Trevi Fountain</span>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Trevi+Fountain+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍西班牙阶梯 Piazza di Spagna</span>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Piazza+di+Spagna+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍万神殿 Pantheon</span>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Pantheon+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍纳沃纳广场 Piazza Navona</span>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Piazza+Navona+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍博尔盖塞美术馆 Galleria Borghese</span>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Galleria+Borghese+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍圣天使城堡 Castel Sant'Angelo</span>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Castel+Sant'Angelo+Roma" target="_blank">👉 点击打开地图</a>
+        </div>
+        <div class="section-item"><span class="label">📍斗兽场 Colosseum（外围拍照）</span>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Colosseum+Rome+main+entrance" target="_blank">👉 点击打开地图</a>
+        </div>
+    </div>
+
+    <div class="card trans-card">
+        <h2>📱 意大利罗马｜必下载APP + 公交票完整攻略（ATAC系统）</h2>
+        <div class="section-item"><span class="label">一定要提前装好这3个APP（出国前下好，可离线地图）：</span></div>
+        <ul>
+            <li><strong>Moovit（首选！）</strong>：查罗马公交/地铁实时到站、临时改线；支持直接买ATAC公交票；中文界面</li>
+            <li><strong>Google Maps</strong>：导航、找点位；定位稳定</li>
+            <li><strong>MooneyGo（备选购票）</strong>：官方授权卖ATAC车票，Moovit购票失败备用</li>
+        </ul>
+        <div class="section-item"><span class="label">罗马常用车票（ATAC）：</span></div>
+        <ul>
+            <li><strong>BIT‑100分钟票 €1.5/人</strong>：激活起100分钟内无限乘坐公交电车；地铁仅可刷一次；斯桐＜10岁免费！</li>
+            <li>ROMA‑24H通票 €7；ROMA‑48H €12.5；ROMA‑72H €18；当日多次换乘，推荐9.26直接买24小时票更省心</li>
+        </ul>
+        <div class="section-item"><span class="label">3种靠谱买票渠道（⚠️公交车上不能买票！）：</span></div>
+        <ul>
+            <li>Tabacchi烟店（门口大写「T」标志）；大多收现金；跟老板说：un biglietto BIT per favore</li>
+            <li>地铁站、大型公交站自动售票机（信用卡/硬币）</li>
+            <li>Moovit / MooneyGo App线上购票 ⚠️买完<strong>必须点激活！</strong>上车/进闸前激活</li>
+        </ul>
+        <div class="section-item"><span class="risk-text">重要规则：</span></div>
+        <ul>
+            <li>上车/进地铁一定要打票/刷电子票；现场查票罚款50‑100€</li>
+            <li>BIT票是时间票，地铁闸机只能通行一次；公交不限次数换乘</li>
+            <li>婴儿车：Ottaviano地铁站有电梯优先使用；公交可推婴儿车，高峰空间紧张</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>⏱ 实时时钟 + 出发倒计时（本地离线可用）</h2>
+        <p>目标：布达佩斯当地 2026‑09‑25 09:25 航班起飞</p>
+        <div id="countdownText" style="margin:10px 0; font-size:17px;"></div>
+        <div class="countdown-wrap">
+            <div class="tz-box">
+                <div class="tz-title">布达佩斯（UTC+2）</div>
+                <div id="tzA" class="tz-time">‑</div>
+            </div>
+            <div class="tz-box">
+                <div class="tz-title">罗马（UTC+2）</div>
+                <div id="tzB" class="tz-time">‑</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card warn-card">
+        <h2>🚨 硬性时间 & 止损规则（全程牢记）</h2>
+        <ul>
+            <li class="risk-text">梵蒂冈博物馆英文导览团：<strong>9‑25 14:00 集合入场，迟到＞15分钟票直接失效</strong></li>
+            <li><strong>止损1：CIA钱皮诺机场出航站楼 ≥12:15 → 放弃公交，直接正规出租车到 Musei Vaticani，约50‑55€</strong></li>
+            <li><strong>止损2：9‑27 去FCO机场：维兹航空建议至少提前3小时到T3 → 18:20前必须抵达航站楼</strong></li>
+            <li>博尔盖塞美术馆<strong>必须提前预约固定入场时段</strong>，不接受现场walk-in，参观限时2小时</li>
+            <li>斯桐免门票，但<strong>护照原件全程随身</strong>；老城石板路颠簸，婴儿车备好软垫、零食、水；罗马白天暴晒，备好帽子防晒霜</li>
+            <li>欧洲公交经常临时改线；到站台前用Moovit再核对实时线路</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🚌 布达佩斯宜必思 ↔ BUD李斯特机场2B（往返完整公交）</h2>
+        <ul class="time-line">
+            <li>✅【机场 → 酒店（抵达路线）】
+                <ol>
+                    <li>BUD‑2B出站找到 <strong>200E巴士（方向 Kőbánya‑Kispest）</strong></li>
+                    <li>单程票350 HUF；车程约22分钟到终点站 Kőbánya‑Kispest</li>
+                    <li>同站换乘<strong>Tram 28（往 Blaha Lujza tér）</strong>，4站到 Kőbányai út / Sportaréna</li>
+                    <li>步行3‑5分钟到酒店；全程约45‑55分钟</li>
+                </ol>
+            </li>
+            <li>✅【酒店 → BUD‑2B（赶飞机路线！）】
+                <ol>
+                    <li>酒店出门步行约4分钟到电车站：<strong>Kőbányai út / Sportaréna</strong></li>
+                    <li>搭乘<strong>Tram 28（往 Kőbánya‑Kispest）</strong>，4站到终点站 Kőbánya‑Kispest</li>
+                    <li>旁边站台换乘<strong>200E巴士（往 Liszt Ferenc Airport 2）</strong>直达BUD‑2B</li>
+                    <li><span class="risk-text">提示：全程预留≥70分钟；早班机预备出租车备选（约28‑35€）；200E平日末班车约23:00</span></li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>✈️ 航班信息（全部当地时间）</h2>
+        <ul>
+            <li><strong>9‑25 去程｜瑞安航空 FR6515</strong><br>
+09:25 BUD（2B）起飞 → 11:05 CIA钱皮诺机场 MAIN到达<br>
+⚠️廉航提醒：官网提前值机；严格检查随身包尺寸，不要现场买行李额度
+            </li>
+            <li><strong>9‑27 返程｜维兹航空 W62342</strong><br>
+21:20 FCO菲乌米奇诺 T3起飞 → 22:39 BUD（2B）到达<br>
+⚠️落地布达佩斯已是深夜，200E大概率收班；优先机场柜台正规出租车回宜必思（约30‑38€）
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🚌 CIA钱皮诺机场 → 梵蒂冈博物馆 Musei Vaticani</h2>
+        <ul class="time-line">
+            <li>落地、边检、拿随身物品出站（预留最多35分钟）</li>
+            <li>机场报刊亭/自动机买 BIT‑100分钟票1.5€/人，或Moovit提前备好票</li>
+            <li>航站楼外站台坐 <strong>520路公交（往 Cinecittà）</strong>，约25‑35分钟到终点站 Cinecittà</li>
+            <li>进站坐地铁<strong>A线红线（Battistini方向）</strong> → <strong>Ottaviano‑San Pietro 站</strong>（约12分钟）</li>
+            <li>出站步行6‑8分钟到梵蒂冈博物馆主入口（导航搜 Musei Vaticani）</li>
+        </ul>
+    </div>
+
+    <div class="card food-card">
+        <h2>🍝 9月25日｜参观后：梵蒂冈博物馆 → Joseph Ristorante</h2>
+        <ul class="time-line">
+            <li>梵蒂冈博物馆出来步行回<strong>Ottaviano‑San Pietro（A线）</strong></li>
+            <li>A线坐2站，往Battistini方向 → <strong>Valle Aurelia 站</strong>出站</li>
+            <li>出站打车/46/49路公交5‑7分钟到 Joseph Ristorante；步行约18分钟（带娃不推荐）</li>
+            <li>点餐参考：Cacio e Pepe / Carbonara意面 + T‑bone牛扒；斯桐点番茄意面；提前电话确认空位</li>
+            <li>晚餐后短途返回TH Roma‑Carpegna Palace酒店</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🗓 9月26日【新版行程】｜TH Roma‑Carpegna Palace 出发</h2>
+        <ul class="time-line">
+            <li><span class="label">10:00 酒店出发，公交前往特雷维喷泉</span>
+                <ol>
+                    <li>酒店步行5分钟到公交站 Aurelia / Carpegna，搭乘<strong>19路公交（Risorgimento方向）</strong></li>
+                    <li>坐到Risorgimento，换乘地铁A线红线，Barberini站下车，步行5分钟到特雷维喷泉</li>
+                    <li>👉省力备选：直接打车到特雷维喷泉，约20€，免去换乘、推婴儿车上下地铁</li>
+                </ol>
+            </li>
+            <li><span class="label">10:40 特雷维喷泉 Trevi Fountain</span>
+                <ul>
+                    <li>打卡许愿，人多，看好斯桐；喷泉周边石板路，婴儿车慢行</li>
+                </ul>
+            </li>
+            <li><span class="label">11:30 步行前往西班牙阶梯 Piazza di Spagna</span>
+                <ul>
+                    <li>步行约10分钟；台阶不能坐，外围拍照休息，广场平缓适合宝宝短暂活动</li>
+                </ul>
+            </li>
+            <li><span class="label">12:20 步行到万神殿 Pantheon，就近午餐</span>
+                <ul>
+                    <li>步行约12分钟；万神殿内部阴凉适合休息；周边小店吃简餐披萨/三明治</li>
+                </ul>
+            </li>
+            <li><span class="label">14:00 步行至纳沃纳广场 Piazza Navona</span>
+                <ul>
+                    <li>步行约8分钟，看贝尔尼尼四河喷泉，广场开阔，宝宝可以走动</li>
+                </ul>
+            </li>
+            <li><span class="label">15:00 前往博尔盖塞美术馆 Galleria Borghese</span>
+                <ul>
+                    <li>纳沃纳广场附近公交/打车前往；美术馆花园非常舒服，带娃优先逛花园，馆内参观限时2小时</li>
+                    <li>⚠️必须提前预约入场时段，没有预约无法进入展厅</li>
+                </ul>
+            </li>
+            <li><span class="label">18:30 出发去晚餐 La Romanesca Osteria Pizzeria</span>
+                <ul>
+                    <li>博尔盖塞区域公交/打车去往梵蒂冈旁餐厅</li>
+                    <li>提前电话预约座位，确认宝宝椅；主打罗马披萨、手工意面</li>
+                </ul>
+            </li>
+            <li><span class="label">20:30 晚餐结束，步行17分钟返回酒店</span>
+                <ul>
+                    <li>餐厅→酒店步行17分钟，夜间道路比较安静；如果斯桐疲惫，直接打车回酒店约18€</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="warn-card" style="margin-top:10px;padding:12px;">
+            <span class="risk-text">⚠️9.26行程提示（带2岁半宝宝）</span>
+            <ul style="margin-top:4px;">
+                <li>整条路线是罗马经典老城环线，景点之间大多短途步行，相对昨天方案轻松很多；但老城石板路持续颠簸，婴儿车备好软垫</li>
+                <li>推荐购买ROMA 24H通票，全天公交地铁随便坐</li>
+                <li>博尔盖塞美术馆：预约严格按时间，迟到不让进；花园免费，就算不进馆也可以在花园散步休息</li>
+                <li>9月下午阳光仍然强烈，持续补水、防晒，随时停下来休息，不用硬走完全部点位</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🗓 9月27日【新版行程】｜罗马休闲+前往FCO机场</h2>
+        <ul class="time-line">
+            <li><span class="label">自然醒，酒店附近午餐</span>
+                <ul>
+                    <li>酒店Aurelia大街周边简餐披萨/意面，不用赶早，充分休整</li>
+                </ul>
+            </li>
+            <li><span class="label">下午：台伯河边散步 + 圣天使城堡外围拍照</span>
+                <ul>
+                    <li>公交/打车到圣天使城堡，沿着台伯河散步，河边风凉；只在外围拍照，不进馆，减少体力消耗</li>
+                </ul>
+            </li>
+            <li><span class="label">斗兽场外围打卡拍照（不入内）</span>
+                <ul>
+                    <li>短暂停留，拍外景，不排队进遗址，轻松不赶路</li>
+                </ul>
+            </li>
+            <li><span class="label">前往Termini火车站，搭乘Leonardo Express机场快线</span>
+                <ul>
+                    <li>Termini站上车，Leonardo Express直达FCO菲乌米奇诺T3；车程32分钟，14€/人，斯桐免票，约30分钟一班</li>
+                    <li>❗维兹航空21:20起飞，建议<strong>18:20前抵达FCO T3航站楼</strong>，预留充足值机安检时间</li>
+                </ul>
+            </li>
+            <li><span class="label">抵达FCO → 值机托运、边检安检，飞往布达佩斯BUD</span></li>
+        </ul>
+        <div class="warn-card" style="margin-top:10px;padding:12px;">
+            <span class="risk-text">⚠️9.27重点提醒</span>
+            <ul style="margin-top:4px;">
+                <li>这天是休闲放松路线，全部景点只打卡外景，不用预约门票，没有入场时间压力，适合前一天逛累之后缓冲</li>
+                <li>Leonardo Express车票可以Termini现场自助机购买，也可以官网提前买；行李有放置区域，推婴儿车友好</li>
+                <li>一定要把控好Termini出发时间，不要因为拍照散步误了去机场的快线！</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<script>
+// 目标时刻：布达佩斯当地 2026‑09‑25T09:25:00+02:00
+const target = new Date("2026-09-25T09:25:00+02:00");
+
+function formatTime(d) {
+    const y = d.getFullYear();
+    const mo = String(d.getMonth()+1).padStart(2,"0");
+    const da = String(d.getDate()).padStart(2,"0");
+    const h = String(d.getHours()).padStart(2,"0");
+    const mi = String(d.getMinutes()).padStart(2,"0");
+    const s = String(d.getSeconds()).padStart(2,"0");
+    return `${y}-${mo}-${da} ${h}:${mi}:${s}`;
+}
+
+function updateClock(){
+    const now = new Date();
+    const offsetMs = 2 * 60 * 60 * 1000;
+    const localUtc2 = new Date(now.getTime() + offsetMs - now.getTimezoneOffset()*60000);
+
+    document.getElementById("tzA").innerText = formatTime(localUtc2);
+    document.getElementById("tzB").innerText = formatTime(localUtc2);
+
+    const diff = target.getTime() - now.getTime();
+    const el = document.getElementById("countdownText");
+    if(diff <= 0){
+        el.innerHTML = "<span style='color:#dc2626;font-weight:bold;'>已过出发时刻</span>";
+    }else{
+        const days = Math.floor(diff / (1000*60*60*24));
+        const hrs = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+        const mins = Math.floor((diff % (1000*60*60)) / (1000*60));
+        const secs = Math.floor((diff % (1000*60)) / 1000);
+        el.innerHTML = `距离BUD出发：
+        <span class="count-item">${days}天</span>
+        <span class="count-item">${hrs}时</span>
+        <span class="count-item">${mins}分</span>
+        <span class="count-item">${secs}秒</span>`;
+    }
+}
+
+updateClock();
+setInterval(updateClock,1000);
+</script>
+</body>
+</html>
